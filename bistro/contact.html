@@ -1,15 +1,44 @@
-
-<DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Contact</title>
+   
+    <link type="text/css" rel="preconnect" href="https://fonts.googleapis.com">
+<link type="text/css" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link type="text/css" href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+   
+<link type="text/css" rel="preconnect" href="https://fonts.googleapis.com">
+<link type="text/css" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link type="text/css" href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Platypi:wght@300..800&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+    <title>Black Goose Bistro</title>
     <style>
+        
+        @font-face {
+  font-family: 'platypi';
+  font-style: normal;
+  font-weight: 1;
+  src: url(fonts/Platypi/Platypi-VariableFont_wght.ttf)
+}
+
+@font-face {
+  font-family: 'pathway';
+  font-style: normal;
+  font-weight: 1;
+  src: url(fonts/Pathway_Gothic_One/PathwayGothicOne-Regular.ttf)
+}
+
+ol, ul { 
+        list-style-type: none;
+         }
+
         body {
             background-color: #faf2e4;
             margin: 0 10%;
-            font-family: sans-serif;
+            font-family: 'platypi';
+  font-style: normal;
+  font-weight: 1;
         }
+
         footer {
     border-top: 1px solid #57b1dc;
     text-align: center;
@@ -17,8 +46,9 @@
   }
         h1 {
             text-align: center;
-            font-family: serif;
-            font-weight: normal;
+  font-family: 'pathway';
+  font-style: normal;
+  font-weight: 1;
             text-transform: uppercase;
             border-bottom: 1px solid #57b1dc;
             margin-top: 30px;
@@ -28,39 +58,25 @@
             font-size: 1em;
         }
 
-        li {
-        list-style: none;        
-        float:left
-        }
-
-        li a {
+        a {
             text-align: center;
-            padding: 15px 50px;
         }
 
-    </style>   
+    </style>    
     
-    <h1><img src="blackgoose.png" alt="logo"><br>Contact</h1>
-<h2> <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="bgnews.html">News</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="jenskitchen/index.html">Jen's Kitchen
-    <li><a href="responsivegallery/gallery.html">Gallery</a></li>
-    </a></li></ul>
-</head>
-<body>
+    <h1><img src="blackgoose.png" alt="logo"><br>Black Goose Bistro</h1>
+    <a href="index.html">Go Back</a>
+    <ul>
+    </ul><br>
 
-</ul></h2>
 <br><p>Thank you for being interested in our services, please fill out the form below and we'll be in touch.</p>
 
 <fieldset>
     <legend>Your Information</legend>
     <ul>
-    <p><label>Full Name: <input type="text" name="fullname"></label></li>
-    <p><label>Company Email: <input type="text" name="companyemail"></label></li>
-    <p><label>Phone Number: <input type="Text" name="phonenumber"></label></li>
+    <li><label>Full Name: <input type="text" name="fullname"></label></li>
+    <li><label>Company Email: <input type="text" name="companyemail"></label></li>
+    <li><label>Phone Number: <input type="Text" name="phonenumber"></label></li>
 </ul>
 </fieldset>
 
@@ -75,4 +91,3 @@ Call us: 555-272-0163
   </footer>
 
 </body>
-</html>  
